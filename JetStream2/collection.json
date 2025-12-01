@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "name": "JetStream2",
+    "description": "JetStream2 benchmark suite",
+    "collections": [],
+    "benchmarks": [
+        "gcc-loops",
+        "hashset",
+        "quicksort",
+        "tsf"
+    ]
+}

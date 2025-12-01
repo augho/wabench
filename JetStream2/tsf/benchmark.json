@@ -1,0 +1,6 @@
+{
+    "native": "./tsf",
+    "native_args": "10000",
+    "iter": 1,
+    "wasmdir": "."
+}

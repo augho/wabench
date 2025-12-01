@@ -1,0 +1,6 @@
+{
+    "native": "./quicksort",
+    "native_args": null,
+    "iter": 10,
+    "wasmdir": null
+}

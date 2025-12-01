@@ -8,4 +8,4 @@ CINCLUDE =
 OPT = -O2
 LDFLAGS =
 
-include ../../Makefile.in
+include ./Makefile.in

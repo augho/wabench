@@ -10,4 +10,4 @@ LDFLAGS = -lm
 
 TEMPFILE = tsf_ir_speed_test_file.tsf
 
-include ../../Makefile.in
+include ./Makefile.in

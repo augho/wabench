@@ -1,0 +1,6 @@
+{
+    "native": "./hashset",
+    "native_args": null,
+    "iter": 1,
+    "wasmdir": null
+}

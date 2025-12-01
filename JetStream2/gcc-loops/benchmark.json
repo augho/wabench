@@ -1,0 +1,6 @@
+{
+    "native": "./gcc-loops",
+    "native_args": null,
+    "iter": 1,
+    "wasmdir": null
+}
