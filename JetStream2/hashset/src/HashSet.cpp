@@ -26,6 +26,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/time.h>
+#include <limits>
 
 // Compile with: xcrun clang++ -o HashSet HashSet.cpp -O2 -W -framework Foundation -licucore -std=c++11 -fvisibility=hidden -DNDEBUG=1
 // Or for wasm: em++ -o HashSet.js -o HashSet.html HashSet.cpp -O2 -W -std=c++11 -DNDEBUG=1 -g1 -s WASM=1 -s TOTAL_MEMORY=52428800
