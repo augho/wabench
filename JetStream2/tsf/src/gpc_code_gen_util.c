@@ -196,14 +196,14 @@ void gpc_rmdashrf_free(char *name) {
     dir=opendir(name);
     if (dir!=NULL) {
 	for (;;) {
-	    struct dirent entry,*result=NULL;
-	    int res=readdir_r(dir,&entry,&result);
-	    if (res!=0 || result==NULL) {
+	    struct dirent *entry = readdir(dir);
+
+	    if (entry==NULL) {
 		break;
 	    }
-	    if (strcmp(entry.d_name,".") &&
-		strcmp(entry.d_name,"..")) {
-		char *flnm=tsf_asprintf("%s/%s",name,entry.d_name);
+	    if (strcmp(entry->d_name,".") &&
+		strcmp(entry->d_name,"..")) {
+		char *flnm=tsf_asprintf("%s/%s",name,entry->d_name);
 		if (flnm!=NULL) {
 		    unlink(flnm);
 		    free(flnm);
